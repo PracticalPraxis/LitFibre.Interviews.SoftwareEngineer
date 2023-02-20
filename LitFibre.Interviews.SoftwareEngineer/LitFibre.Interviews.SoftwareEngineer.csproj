@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LitFibre.Interviews.SoftwareEngineer.Models\LitFibre.Interviews.SoftwareEngineer.Models.csproj" />
+    <ProjectReference Include="..\LitFibre.Interviews.SoftwareEngineer.Services\LitFibre.Interviews.SoftwareEngineer.Services.csproj" />
   </ItemGroup>
 
 </Project>
